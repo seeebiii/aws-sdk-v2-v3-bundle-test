@@ -13,8 +13,7 @@
   "author": "Sebastian Hesse (https://www.sebastianhesse.de)",
   "license": "MIT",
   "dependencies": {
-    "@aws-sdk/client-dynamodb": "^3.4.1",
-    "@aws-sdk/client-s3": "^3.4.1"
+    "@aws-sdk/client-dynamodb": "^3.4.1"
   },
   "devDependencies": {
     "esbuild": "^0.8.41"

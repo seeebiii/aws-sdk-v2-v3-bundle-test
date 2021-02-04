@@ -1,0 +1,22 @@
+{
+  "name": "sdk-v3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf build",
+    "build": "esbuild index.js --bundle --platform=node --target=node12 --external:@aws-sdk --outfile=build/index.js",
+    "build:min": "esbuild index.js --bundle --platform=node --target=node12 --external:@aws-sdk --outfile=build/index_min.js --minify",
+    "build:all": "esbuild index.js --bundle --platform=node --target=node12 --outfile=build/index_all.js",
+    "build:all:min": "esbuild index.js --bundle --platform=node --target=node12 --outfile=build/index_all_min.js --minify"
+  },
+  "author": "Sebastian Hesse (https://www.sebastianhesse.de)",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.4.1",
+    "@aws-sdk/client-s3": "^3.4.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.8.41"
+  }
+}

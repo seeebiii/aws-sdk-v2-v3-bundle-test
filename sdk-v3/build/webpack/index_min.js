@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=new dynamodb.DynamoDB({apiVersion:"2012-08-10"});(async function(){await t.getItem({}),await t.updateItem({})})().then((()=>console.log("done"))).catch((()=>process.exit(1)))})();

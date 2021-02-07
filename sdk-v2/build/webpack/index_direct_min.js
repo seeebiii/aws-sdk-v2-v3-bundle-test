@@ -1,0 +1,1 @@
+(()=>{var t={159:t=>{"use strict";t.exports=awssdk}},e={};function r(n){if(e[n])return e[n].exports;var s=e[n]={exports:{}};return t[n](s,s.exports,r),s.exports}(()=>{const t=new(r(159))({apiVersion:"2012-08-10"});t.getItem({},(function(e,r){t.updateItem({},(function(t,e){}))}))})()})();

@@ -1,0 +1,1 @@
+(()=>{var t={159:t=>{"use strict";t.exports=awssdk}},e={};function r(n){if(e[n])return e[n].exports;var o=e[n]={exports:{}};return t[n](o,o.exports,r),o.exports}(()=>{const t=new(r(159).DynamoDB)({apiVersion:"2012-08-10"});t.getItem({},(function(e,r){t.updateItem({},(function(t,e){}))}))})()})();
